@@ -21,9 +21,8 @@ export const CharacterInfo = () => {
         searchCharacterByIdFx(Number(id));
       }
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  console.log(Object.entries($store.selectedCharacter || {}));
 
   return (
     <Grid container direction="column">
