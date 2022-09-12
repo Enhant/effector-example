@@ -1,0 +1,22 @@
+.App {
+  text-align: left;
+}
+
+.main {
+  margin-top: 10px;
+}
+
+.searchCharacters {
+  margin: 0 auto 10px;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.paginationContainer {
+  width: 100vw;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+}

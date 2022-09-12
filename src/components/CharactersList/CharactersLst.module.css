@@ -1,0 +1,26 @@
+.charactersList {
+  padding-left: 5px;
+  list-style-type: none;
+}
+
+.listElement {
+  padding: 10px;
+  border: 1px solid var(--main);
+  border-top: none;
+  cursor: pointer;
+}
+
+.listElement:first-child {
+  border-top: 1px solid var(--main);
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.paginationContainer {
+  width: 100vw;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+}
