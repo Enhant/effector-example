@@ -7,6 +7,5 @@ export function useDebounceFunction(
   useEffect(() => {
     const timeoutId = setTimeout(func, delay);
     return () => clearInterval(timeoutId);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [func]);
+  }, [func, delay]);
 }
